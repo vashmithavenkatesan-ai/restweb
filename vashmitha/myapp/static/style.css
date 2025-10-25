@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(132, 104, 70);
+  text-align: center;
+}
+
+.navbar {
+  background: rgba(151, 11, 11, 0.6);
+  padding: 15px;
+}
+
+.navbar a {
+  color: rgb(66, 16, 48);
+  text-decoration: none;
+  margin: 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #211f2d;
+}
+
+h1 {
+  font-size: 50px;
+  color: #d60f9e;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 25px;
+  color:rgb(255, 106, 47);
+}
+
+section {
+  padding: 20px;
+}
+
+.home .images img {
+  width: 45%;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(53, 21, 149, 0.5);
+}
+
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  background: lawngreen;
+  color:rgb(237, 19, 237);
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.member {
+  background: rgba(227, 24, 24, 0.9);
+  color:fuchsia;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.member img {
+  width: 100%;
+  border-radius: 50%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.contact {
+  background:#933b08;
+  padding: 30px;
+  border-radius: 15px;
+  width: 60%;
+  margin: auto;
+  color:rgb(50, 12, 240);
+}
